@@ -15,7 +15,7 @@
         http://www.springframework.org/schema/context/spring-context-4.0.xsd"> 
         
         <!-- 引入资源文件 -->      
-        <context:property-placeholder location="classpath:resource.properties" />
+        <context:property-placeholder location="classpath:*.properties" />
         
         <!-- 注解扫描 -->
         <context:component-scan base-package="com.heron.controller"></context:component-scan>
